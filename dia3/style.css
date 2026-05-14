@@ -1,0 +1,25 @@
+:root {
+  --color: #ff3300;
+  --color2: #cc33ff;
+  --bg-color-light: color-mix(in srgb, var(--color), var(--color2) 30%);
+  --default: #ffffff;
+  --bg-color-dark: color-mix(in srgb, var(--bg-color-light), black 40%);
+}
+
+body {
+  min-height: 100dvh;
+  background-image: linear-gradient(to top, var(--bg-color-dark));
+  color: var(--default);
+  width: 600px;
+  margin: auto;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+a {
+  color: var(--bg-color-light);
+  font-weight: bold;
+}
