@@ -1,0 +1,19 @@
+{
+  "name": "30-days-challenge-html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@11.1.1",
+  "type": "module",
+  "devDependencies": {
+    "oxfmt": "^0.49.0",
+    "oxlint": "^1.64.0",
+    "servor": "^4.0.2"
+  }
+}
