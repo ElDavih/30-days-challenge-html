@@ -1,0 +1,65 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+  margin: 0;
+  background-color: #121212;
+  flex-direction: column;
+}
+
+h1 {
+  color: #fff;
+  font-size: 3rem;
+}
+
+.caja {
+  width: 400px;
+  height: 400px;
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  position: relative;
+
+  .corner {
+    width: 350px;
+    height: 300px;
+    border-radius: 10px;
+  }
+
+  .botones {
+    display: flex;
+    gap: 2rem;
+    position: absolute;
+    bottom: 15px;
+
+    iframe {
+      width: 350px;
+      height: 300px;
+      display: none;
+      position: absolute;
+      top: -309px;
+      left: -40px;
+      border: none;
+    }
+
+    input[type="radio"] {
+      appearance: none;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: red;
+      cursor: pointer;
+    }
+
+    input[type="radio"]:checked {
+      background: green;
+    }
+
+    label:has(input[type="radio"]:checked) iframe {
+      display: block;
+    }
+  }
+}
