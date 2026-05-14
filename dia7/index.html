@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge - Dia 7</title>
+  </head>
+  <body>
+  <!--Coloca una imagen en formato JPEG-XL. Si el navegador no la soporta, que use AVIF. Sino, que use JPG.-->
+    <h1>Formatos de imagenes con &lt;picture&gt;</h1>
+    <picture>
+      <source srcset="./pictureJXL.jxl" type="image/jxl" />
+      <source srcset="./pictureAVIF.avif" type="image/avif" />
+      <img
+        src="./pictureJPEG.jpeg"
+        alt="Imagen holdplace en varios formatos"
+        width="600"
+        height="400"
+      />
+    </picture>
+  </body>
+</html>
