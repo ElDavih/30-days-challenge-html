@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge - Dia 20</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <!-- Crea un formulario para dejar un comentario en una página: Usuario y comentario de texto. -->
+    <div class="wrapper">
+      <h2>Formulario de comentario</h2>
+      <form action="#" method="post">
+        <label for="username">Usuario</label>
+        <input
+          type="text"
+          name="username"
+          id="username"
+          placeholder="Escribe tu nombre de usuario"
+          required
+        />
+        <label for="comment">Comentario del usuario</label>
+        <textarea
+          name="comment"
+          id="comment"
+          placeholder="Deja tu comentario aqui..."
+          minlength="60"
+          maxlength="200"
+          required
+        ></textarea>
+        <button>Enviar comentario</button>
+      </form>
+    </div>
+  </body>
+</html>
