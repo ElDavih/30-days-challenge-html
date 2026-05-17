@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge - Dia 22</title>
+  </head>
+  <body>
+    <!-- En la lista anterior, permite al usuario introducir opciones personalizadas (no sólo las de la lista) y filtrar las opciones existentes. -->
+    <form action="#" method="get">
+      <label for="input-fruta">Elige o escribe una fruta:</label>
+      <input
+        list="opciones-fruta"
+        id="input-fruta"
+        name="fruta"
+        type="text"
+        placeholder="Escribe para buscar..."
+        autocomplete="off"
+      />
+      <datalist id="opciones-fruta">
+        <option value="1">🥝 Kiwi</option>
+        <option value="2">🍋 Limón</option>
+        <option value="3">🍍 Piña</option>
+        <option value="4">🍊 Naranja</option>
+
+        <option value="5">🍌 Plátano</option>
+        <option value="6">🍒 Cereza</option>
+        <option value="7">🍈 Melón</option>
+        <option value="8">🍉 Sandía</option>
+
+        <option value="9">🥥 Coco</option>
+        <option value="10">🥑 Aguacate</option>
+        <option value="11">🥜 Maní</option>
+        <option value="12">🌰 Nuez</option>
+      </datalist>
+    </form>
+  </body>
+</html>
