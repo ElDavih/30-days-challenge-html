@@ -13,6 +13,7 @@
   "packageManager": "pnpm@11.1.2",
   "type": "module",
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "oxfmt": "^0.49.0",
     "oxlint": "^1.64.0",
     "servor": "^4.0.2",
