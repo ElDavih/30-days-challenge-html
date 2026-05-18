@@ -1,0 +1,23 @@
+{
+  "name": "30-days-challenge-html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "servor . index.html 1234 --reload"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@11.1.2",
+  "type": "module",
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "oxfmt": "^0.49.0",
+    "oxlint": "^1.64.0",
+    "servor": "^4.0.2",
+    "stylelint": "^17.11.1",
+    "stylelint-config-standard": "^40.0.0"
+  }
+}

@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@100..900&display=swap");
+
+body {
+  min-height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.wrapper {
+  width: 50%;
+  background-color: darkred;
+  padding: 1rem;
+  color: #fff;
+  font-size: 2rem;
+  corner-shape: scoop;
+  border-radius: 30px;
+  box-shadow: 0 0 7px 0 black;
+
+  & .btn-tap {
+    display: flex;
+    justify-content: center;
+    column-gap: 1rem;
+
+    button {
+      border: 1px solid red;
+      padding: 0.5rem 1rem;
+      background-color: red;
+      cursor: pointer;
+      transition: scale 0.2s ease-in;
+
+      &.active {
+        background-color: #fff;
+        scale: 1.1;
+      }
+    }
+  }
+}
+
+section {
+  padding: 1rem;
+  font-family:
+    "Bitcount Single",
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+}

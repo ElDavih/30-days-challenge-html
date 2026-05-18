@@ -1,0 +1,11 @@
+:root {
+  --color: #33fc65;
+  --color2: #8a0083;
+  --bg-color-light: color-mix(in srgb, var(--color), var(--color2) 65%);
+  --default: #fff;
+}
+
+body {
+  background-image: linear-gradient(var(--bg-color-light));
+  color: var(--default);
+}

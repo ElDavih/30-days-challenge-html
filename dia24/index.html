@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge - Dia 24</title>
+  </head>
+  <body>
+    <!-- Crea un formulario de registro que valide si el username escrito es válido (sólo letras y números) o no. -->
+    <form action="#" method="get">
+      <label>
+        Escribe tu username:
+        <input
+          type="text"
+          name="username"
+          required
+          aria-required="true"
+          pattern="[A-Za-z0-9]{5,40}"
+          title="Solo se permite letras y numeros. Tamaño entre 5-40 caracteres"
+        />
+      </label>
+      <button>Enviar usuario</button>
+    </form>
+  </body>
+</html>
